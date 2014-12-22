@@ -8,7 +8,7 @@ Flask-SQLAlchemy==2.0
 Flask-WhooshAlchemy==0.56
 Jinja2==2.7.3
 MarkupSafe==0.23
-SQLAlchemy==0.9.7
+SQLAlchemy==0.7.9
 Tempita==0.5.2
 Whoosh==2.6.0
 PyRSS2Gen==1.0.0
