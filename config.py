@@ -7,6 +7,8 @@ SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 WTF_CSRF_ENABLED = True
 SECRET_KEY = 'Ah}E]6.tz%R8B'
 
+WHOOSH_ENABLED = os.environ.get('HEROKU') is None
+
 OPENID_PROVIDERS = [
     {'name': 'Google', 'url': 'https://www.google.com/accounts/o8/id'},
     {'name': 'Yahoo', 'url': 'https://me.yahoo.com'},
