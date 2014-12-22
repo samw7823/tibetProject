@@ -100,6 +100,19 @@ def edit():
         form.about_me.data = g.user.about_me
     return render_template('edit.html', form=form)
 
+@app.route('/freetibet')
+def freetibet():
+    return render_template('freetibet.html')
+
+@app.route('/cuisine')
+def cuisine():
+    return render_template('cuisine.html')
+@app.route('/momocrawl')
+def momocrawl():
+    return render_template('momocrawl.html')
+@app.route('/business')
+def business():
+    return render_template('business.html')
 
 @app.route('/logout')
 def logout():
